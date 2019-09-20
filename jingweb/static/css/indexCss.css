@@ -1,0 +1,97 @@
+/*index page renderer*/
+
+.title{
+  	text-align: center;
+	color: black;
+	margin:10;
+}
+.listUrl{
+	text-align: center;
+	color: black;
+	margin:10;
+	font-weight: bold;
+}
+a : link{
+  	text-align: center;
+	color: pink;
+	-webkit-tap-highlight-color: #FF5E99;
+}
+a : visited{
+  	text-align: center;
+	color: black;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  color: black;
+  text-decoration:none;
+  font-weight:none;
+}
+
+a.listUrl:hover, a.listUrl:active {text-decoration: underline;}
+#topLine{
+  border-top: 1px solid black;
+}
+#bottomLine{
+  border-top: 2px solid black;
+}
+#mainDiv{
+    max-width:800px;
+  	margin: auto;
+  	align:center;
+}
+.headerDiv{
+	align:center;
+	margin: 20px;
+}
+ul#links li {
+  display:inline;
+  margin: 20px;
+}
+#listDiv{
+	text-align: center;
+}
+::selection {
+    background-color: #FF5E99;
+    color: white;
+}
+.image{
+	width:250px;
+	height:200px;
+	padding: 0 15px;
+	float: right;
+}
+
+
+/* resume file*/
+.resuemBody{
+	text-align: left;
+	margin-top: 50px;
+
+	  display: flex;
+	  justify-content: space-between;
+	  margin: 0 auto;
+	  padding: 10px 0;
+}
+.resumeSections{
+	list-style-type:none;
+}
+.inlineClass{
+	display: flex;
+    justify-content: space-between;
+}
+.inlineClass1{
+	display: flex-center;
+    justify-content: space-between;
+}
+li{
+	margin-top: 10px;
+}
+li.mainLi{
+	margin-top: 20px;
+}
+.sub { list-style:none; }
+.sub li:before {
+    content: "\00BB";
+}
